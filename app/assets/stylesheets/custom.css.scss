@@ -1,0 +1,95 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+/* universal */
+
+
+body {
+	color: white;
+background-color:#152627;  
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+#logoNavBar{
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    max-width: 75px;
+    max-width: 75px;
+    float:left;
+}
+
+.navbarcontainer{
+		margin-left:5%;
+}
+.navbar{
+	min-height: 75px;
+	max-height: 120px;
+	margin-bottom:0px;
+	background-color:#152627;
+	border-radius:0px;
+}
+.nav{
+	padding-top: 15px;
+}
+
+/* Body content */
+
+.bodyWrapper{
+	position:relative;
+	background-color:#04463D;
+	width:100%;
+	max-width: 980px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+.jumbotron{
+	background-color:#00827C;
+	padding-top:20px;
+}
+
+.services{
+	text-align: center;
+	max-width: 100%;
+	margin-left:0px;
+}
+.services p{
+	font-size: 36px;
+}
+
+#Information{
+	background-color:#152627;
+	padding:20px;
+}
+
+/*.main{
+	text-align: center;
+}*/
+
+/* Sidebar */
+
+.sidebar{
+	margin-top:10px;
+	background-color:#00827C;
+	height: 100%;
+}

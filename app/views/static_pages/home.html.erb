@@ -1,9 +1,73 @@
 
 <% provide(:title, "Home") %>
+<script>
+$(document).ready(function(){
+	$("#Information").hide();
+	var open = true;
+    $("#service1").click(function(open) {
+		if($('#Information').is(":visible")){
+			$('#Information').slideToggle();
+			return false;
+		}
+		$('.services').find('.service').css('background-color', '#04463D');
+		$('#Information').html("<p>We offer full casting services for your event. Streamed in full HD and complete with graphics for your event. With SmartcastGG streaming your event, you'll notice that your event will get all sorts of attention. </p>");
+		$(this).parent().css('background-color','#152627')
+		$('#Information').slideToggle();
+		return false;
+				
+	});
+	$("#service2").click(function() {
+		if($('#Information').is(":visible")){
+			$('#Information').slideToggle();
+			return false;
+		}
+		$(this).parent().parent().find('.service').css('background-color', '#04463D');
+		$('#Information').html("<p>Imagine having your Esports event having live commentary by people who know the game being played at your event. With SmartcastGG, you'll have access to a full team of people who not only know the game inside out, but also analyze plays that were made and are capable of exciting a crowd.</p>");
+		$(this).parent().css('background-color','#152627')
+		$('#Information').slideToggle();
+		return false;		
+	});
+	$("#service3").click(function() {
+		if($('#Information').is(":visible")){
+			$('#Information').slideToggle();
+			return false;
+		}
+		$(this).parent().parent().find('.service').css('background-color', '#04463D');
+		$('#Information').html("<p>I'm service 3 </p>");
+		$(this).parent().css('background-color','#152627')
+		$('#Information').slideToggle();
+		return false;		
+	});
+});
+</script>
+<div class="col-md-9 main">
 
-    <h1>Sample App</h1>
-    <p>
-      This is the home page for the
-      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
-    </p>
+<div>
+  <h1>SmartcastGG</h1>
+
+	<iframe width="100%" height="400px" src="https://www.youtube.com/embed/videoseries?list=PL6YZkeWa4hQV73_NHf3gMaJsStPDZU4nY" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+	<div class="row services">
+		<div class="col-md-4 service" id="service1div">
+			<p>Streaming</p>
+			<i class="fa fa-video-camera fa-5x" id="service1"></i>
+
+		</div>
+		<div class="col-md-4 service" id="service2div">
+			<p>Casting</p>
+			<i class="fa fa-microphone fa-5x" id="service2"></i>
+		</div>
+		<div class="col-md-4 service" id="service3div">
+			<p>Hosting</p>
+			<i class="fa fa-users fa-5x" id="service3"></i>
+		</div>
+	</div>
+	<div id="Information">
+	</div>
+
+<a class="twitter-timeline" href="https://twitter.com/JomSnow901/lists/scgg" data-widget-id="647618758702440448"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
