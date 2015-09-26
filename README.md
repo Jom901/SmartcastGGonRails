@@ -1,7 +1,5 @@
-== README
+##README
 
-
-Things you may want to cover:
 
 * Ruby version: 4.2.3
 
