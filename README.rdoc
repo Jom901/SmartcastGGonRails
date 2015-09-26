@@ -9,7 +9,7 @@ Things you may want to cover:
 
 Simply type in
 
-```shell
+``` shell
 bundle install
 ```
 in the project folder to install all rails dependencies. As of right now,
