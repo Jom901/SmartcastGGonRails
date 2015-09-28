@@ -12,3 +12,11 @@ bundle install
 ```
 in the project folder to install all rails dependencies. As of right now,
 I'm simply using sql, jquery, font-awesome and bootstrap gems.
+
+Then start up your rails server with
+
+```shell
+rails server
+```
+
+and visit your localhost. 
