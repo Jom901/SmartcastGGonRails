@@ -2,8 +2,9 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-/* universal */
 
+
+/* universal */
 
 body {
 	color: white;
@@ -26,7 +27,9 @@ textarea {
   margin-bottom: 10px;
 }
 
+
 /* Navbar */
+
 #logoNavBar{
     width: 100%;
     left: 0;
@@ -38,7 +41,7 @@ textarea {
 }
 
 .navbarcontainer{
-		margin-left:5%;
+		margin-left:7%;
 }
 .navbar{
 	min-height: 75px;
@@ -52,6 +55,15 @@ textarea {
 }
 
 /* Body content */
+
+#ytdiv{
+	text-align:center ;
+}
+.YoutubeVideo{
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 800px;
+}
 
 .bodyWrapper{
 	position:relative;
@@ -68,6 +80,7 @@ textarea {
 	padding-top:20px;
 }
 
+
 .services{
 	margin-top:40px;
 	margin-bottom:40px;
@@ -78,6 +91,9 @@ textarea {
 .services h1{
 	text-align: left;
 }
+.service{
+	padding-bottom:10px;
+}
 .service p{
 	font-size: 36px;
 }
@@ -85,12 +101,13 @@ textarea {
 #Information{
 	background-color:#152627;
 	padding:20px;
+	text-align: left;
 	
 }
 
-/*.main{
-	text-align: center;
-}*/
+.main{
+	padding:10px;
+}
 
 /* Sidebar */
 
