@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Font awesome Gem. Remember to include font-awesome-sprockets and font-awesome in your CSS
 gem 'font-awesome-sass'
 
+#Hover.css gem for crazy good on hover effects.
+gem 'hover-rails', '~> 2.0.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -98,34 +98,166 @@ textarea {
 	text-align: center;
 	max-width: 100%;
 	margin-left:0px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
 }
 .services h1{
 	text-align: left;
 }
 .service{
 	padding-bottom:10px;
-	border-top: 2px solid black;
+	margin-right: 0px;
+	background-color: #152627;
 }
 .service p{
 	font-size: 36px;
 }
 
-#Information{
+#service1div{
+
 	background-color:#152627;
-	padding:20px;
-	text-align: left;
+	    margin-left: 15px;
+}
+// #service1div:hover{
+// 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// }
+
+#service2div{
+
+	background-color:#152627;
+}
+
+
+// #service2div:hover{
+// 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+// }
+
+#service3div{
 	
+	background-color:#152627;
+}
+// #service3div:hover{
+// 	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+// 	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+// 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+// }
+
+#iconContainer1{
+	padding-top:10px;
+}
+#Information1{
+	background-color:#152627;
+	    padding: 30px;
+	text-align: justify;
+}
+#Information1 p {
+	font-size: 18px;
+}
+
+
+#iconContainer2{
+	padding-top:10px;	
+}
+#Information2 {
+	background-color:#152627;
+	    padding: 30px;
+	text-align: justify;
+}
+#Information2 p{
+	font-size: 18px;
+}
+
+#iconContainer3{
+	padding-top:10px;	
+}
+#Information3{
+	background-color:#152627;
+	    padding: 30px;
+	text-align: justify;
+}
+#Information3 p{
+	font-size: 18px;
 }
 
 /* Twitter kungfu trickery */
-
+.tweets{
+	margin-left:5px;
+	max-width: 48%;
+}
 
 /* Follow */
 
+.Twitter{
+	max-height: 200px;
+	background-color:#5DD6FB;
+}
+
+.Facebook{
+	max-height: 200px;
+	background-color:#3765A3;
+}
+
+.Instagram{
+	background-color:#D5AD18;
+	max-height: 200px;
+}
+
+.FollowIcon{
+	text-align: center;
+}
+.FollowIcons{
+	margin-top:60px;
+	max-width: 75px;
+	margin-right: auto;
+	margin-left:14%;
+	border-radius: 6px;
+}
+
+
+
+#SocialLogo{
+	max-height:200px;
+	max-width:200px;
+}
+
 /* Sidebar */
 
-.sidebar{
-	margin-top:10px;
-	background-color:#00827C;
-	height: 100%;
+// .sidebar{
+// 	margin-top:10px;
+// 	background-color:#00827C;
+// 	height: 100%;
+// }
+
+
+
+/* @media queries */
+@media(max-width: 992px) {
+#service1div{
+	    margin-left: 0px;
+}
+.FollowIcons{
+	
+}
+.socialMedia{
+	max-width: 100%;
+}
+
+.tweets{
+	margin-right:auto;
+	margin-left:auto;
+	max-width: 100%;
+}
+
+}
+
+@media(max-width: 600px){
+	.FollowIcons{
+		    margin-left: 13.5%;
+		    max-width: 151px;
+	}
 }
