@@ -32,29 +32,39 @@ textarea {
 .listitem{
 	border-right: 1px solid white;
 }
-
+.navbar{
+	padding-left:10.5%;
+	margin-bottom:0px;
+	background-color:#152627;
+	border-radius:0px;
+}
+.navbar-default{
+	border-color:#152627;
+}
 #logoNavBar{
     width: 100%;
     left: 0;
     text-align: center;
     margin: auto;
-    max-width: 75px;
-    max-width: 75px;
+    max-width: 60px;
     float:left;
 }
 
 .navbarcontainer{
 		margin-left:7%;
 }
-.navbar{
-	min-height: 75px;
-	max-height: 120px;
-	margin-bottom:0px;
-	background-color:#152627;
-	border-radius:0px;
-}
+
 .nav{
-	padding-top: 15px;
+	margin-left:10px;
+}
+.nav li a{
+ 	padding-top: 4px;
+ 	padding-top: 20px;
+     padding-bottom: 19px;
+}
+
+.nav li:hover{
+	background-color:#e7e7e7;
 }
 
 /* Body content */
@@ -223,6 +233,8 @@ textarea {
 #SocialLogo{
 	max-height:200px;
 	max-width:200px;
+	box-shadow: 3px 3px 3px #291E1E;
+    border-radius: 8em;
 }
 
 /* Sidebar */
@@ -236,6 +248,28 @@ textarea {
 
 
 /* @media queries */
+
+@media(max-width:1920px ){
+	.navbar{
+	    padding-left: 23.5%;
+	}
+}
+@media(max-width: 1280px){
+	.navbar{
+	    padding-left: 10.5%;
+	}
+}
+@media(max-width: 1080px){
+	.navbar{
+		padding-left:3.5%;
+	}
+}
+@media(max-width: 1024px){
+	.navbar{
+		padding-left: 3.5%;
+	}
+}
+
 @media(max-width: 992px) {
 #service1div{
 	    margin-left: 0px;
@@ -254,10 +288,24 @@ textarea {
 }
 
 }
+@media(max-width: 800px){
+	.navbar{
+	    padding-left: 0.5%;
+	}
+}
 
 @media(max-width: 600px){
 	.FollowIcons{
 		    margin-left: 13.5%;
 		    max-width: 151px;
+	}
+	#logoNavBar{
+		display: none;
+	}
+	.navbar-collapse{
+		     border-top: 0px solid transparent; 
+	}
+	.navbar{
+		padding-left: 0px;
 	}
 }
