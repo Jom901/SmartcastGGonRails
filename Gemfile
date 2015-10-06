@@ -30,7 +30,7 @@ gem 'font-awesome-sass'
 gem 'hover-rails', '~> 2.0.2'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
