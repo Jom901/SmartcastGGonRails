@@ -11,6 +11,7 @@ body {
     background-color: rgba(0, 0, 0, 0.84);
 }
 
+
 section {
   overflow: auto;
 }
@@ -90,6 +91,7 @@ textarea {
 	background-color:#04463D;
 	width:100%;
 	max-width: 980px;
+	    min-height:100vh;
 	margin-right:auto;
 	margin-left:auto;
 	box-shadow: 0px 20px 40px #060606;
@@ -247,6 +249,10 @@ textarea {
 
 
 
+/* Personnel page */
+.worker{
+	text-align:center;
+}
 /* @media queries */
 
 @media(max-width:1920px ){

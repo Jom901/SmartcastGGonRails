@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
+  get 'workers/index'
+  get 'workers/show'
+
   get 'users/new'
 
   get 'home' => 'static_pages#home'
   get 'about' => 'static_pages#about'
   get 'help' => 'static_pages#help'
-  get 'personnel' => 'users#personnel'
+  get 'personnel' => 'workers#index'
   resources :users
+  resources :workers
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
