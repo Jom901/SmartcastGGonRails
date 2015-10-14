@@ -92,6 +92,7 @@ textarea {
 	width:100%;
 	max-width: 980px;
 	    min-height:100vh;
+	height:100%;
 	margin-right:auto;
 	margin-left:auto;
 	box-shadow: 0px 20px 40px #060606;
@@ -252,7 +253,11 @@ textarea {
 /* Personnel page */
 .worker{
 	text-align:center;
+	margin-top:20px;
 }
+
+
+
 /* @media queries */
 
 @media(max-width:1920px ){
