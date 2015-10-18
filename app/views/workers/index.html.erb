@@ -1,10 +1,10 @@
-
 <% counter = 0 %> 
 <% @worker.each do |w| %>
 	<% if counter == 0 %>
 		<div class="row">
 	<% end %>
 	<div class="col-sm-4 worker">
+	<%= image_tag w.avatar.url(:thumb) %>
 	 <p><%= w.name %></p>
 	 <p><%= w.role %></p>
 	 <p><%= w.email %></p>

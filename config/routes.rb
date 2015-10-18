@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   get 'workers/index'
   get 'workers/show'
 
@@ -8,6 +10,10 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'help' => 'static_pages#help'
   get 'personnel' => 'workers#index'
+  get 'add-personnel' => 'workers#new'
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
   resources :users
   resources :workers
   # The priority is based upon order of creation: first created -> highest priority.
