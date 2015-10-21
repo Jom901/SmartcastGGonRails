@@ -208,16 +208,26 @@ textarea {
 .Twitter{
 	max-height: 200px;
 	background-color:#5DD6FB;
+	a{
+		color:white;
+	}
 }
 
 .Facebook{
 	max-height: 200px;
 	background-color:#3765A3;
+	a{
+		color:white;
+	}
 }
+
 
 .Instagram{
 	background-color:#D5AD18;
 	max-height: 200px;
+	a{
+		color:white;
+	}
 }
 
 .FollowIcon{
@@ -255,7 +265,8 @@ textarea {
 	text-align:center;
 	margin-top:20px;
 	img{
-		border-radius:50%;
+		box-shadow: 3px 3px 3px #291E1E;
+   		border-radius: 50%;
 	}
 }
 
@@ -301,6 +312,10 @@ textarea {
 	max-width: 100%;
 }
 
+#worker_role{
+	color:black !important;
+}
+
 }
 @media(max-width: 800px){
 	.navbar{
@@ -321,6 +336,12 @@ textarea {
 	}
 	.navbar{
 		padding-left: 0px;
+	}
+	.mediaArray{
+		margin-bottom: 70px;
+	}
+	.tweets{
+		max-height: 220px;
 	}
 }
 

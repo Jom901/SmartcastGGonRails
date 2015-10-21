@@ -42,25 +42,32 @@
 				</div>
 		</div>
 	</div>
+<h1>Follow us!</h1>
 <div class="socialMedia row">
 	<div class="tweets col-sm-6">
 		<a class="twitter-timeline" width="530" height="400" href="https://twitter.com/JomSnow901/lists/scgg" data-widget-id="647618758702440448"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 
-<div class="col-sm-6 ">
+<div class="col-sm-6 mediaArray">
 	<div>
 	<%=image_tag("SCGGnoText.png", alt: "SCGGLogoNoText", id:"SocialLogo") %>
 	</div>
 <div class="row FollowIcon">
 
 		<div class="FollowIcons Twitter col-xs-4">
+		<%= link_to "https://twitter.com/SmartCast_GG" do %>
 			<i class="fa fa-twitter-square fa-4x"></i>
+			<% end %>
 		</div>
 		<div class="FollowIcons Facebook col-xs-4">
+		<%= link_to "https://www.facebook.com/SmartCastGG?fref=ts" do %>
 		<i class="fa fa-facebook-square fa-4x"></i>
+		<% end %>
 		</div>
 		<div class="FollowIcons Instagram col-xs-4">
-		<i class="fa fa-instagram fa-4x"></i>
+		<%= link_to "https://instagram.com/bomanhorsejack/" do %>
+			<i class="fa fa-instagram fa-4x"></i>
+		<% end %>
 		</div>
 </div>
 </div>
