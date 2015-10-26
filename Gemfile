@@ -4,6 +4,17 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 
+#Figaro gem helps handle environment variables
+
+gem 'figaro'
+
+#dotenv GIVE ME MY ENVIRONMENT VARIABLES
+#gem 'dotenv-rails', :groups => [:development, :test]
+
+# Use the AWS SDK to be able to draw information from Amazong Web Services
+
+gem 'aws-sdk-v1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
