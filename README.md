@@ -39,5 +39,6 @@ and visit the localhost presented to you in your terminal window.
 
 * Fully responsive front end
 * SASS pipline
+* Helper that checks if a given stream is online (I.E. SCGG sponsored streams)
 * An administrative model that handles information for the DB
 * A page that shows all workers currently associated with SmartcastGG with data from the DB
