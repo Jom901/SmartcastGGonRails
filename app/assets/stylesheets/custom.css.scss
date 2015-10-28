@@ -6,11 +6,7 @@
 
 /* universal */
 
-li strong{
-	background-color:red ;
-	color:white;
-	padding:5px;
-}
+
 
 body {
 	color: white;
@@ -36,6 +32,13 @@ textarea {
 
 
 /* Navbar */
+
+li strong{
+	background-color:red ;
+	color:white;
+	padding:5px;
+}
+
 .listitem{
 	border-right: 1px solid white;
 }
@@ -128,6 +131,7 @@ textarea {
 	padding-bottom:10px;
 	margin-right: 0px;
 	background-color: #152627;
+	max-height: 516px;
 }
 .service p{
 	font-size: 36px;
@@ -207,6 +211,7 @@ textarea {
 .tweets{
 	margin-left:5px;
 	max-width: 48%;
+	padding-left:15px;
 }
 
 /* Follow */
@@ -247,7 +252,13 @@ textarea {
 	border-radius: 6px;
 }
 
-
+.mediaArray{
+	text-align:center;
+	max-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
 
 #SocialLogo{
 	max-height:200px;
@@ -275,12 +286,25 @@ textarea {
    		border-radius: 50%;
 	}
 }
-
+.contactUsWork{
+	text-align: left;
+    max-width: 90%;
+    margin-left: 40px;
+    background-color: #152627;
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
 
 
 /* @media queries */
 
-@media(max-width:1920px ){
+@media(min-width: 1480px){
+	.navbar{
+		padding-left: 16.5%;
+	}
+}
+@media(min-width:1920px ){
 	.navbar{
 	    padding-left: 23.5%;
 	}
@@ -345,6 +369,7 @@ textarea {
 	}
 	.mediaArray{
 		margin-bottom: 70px;
+		max-width: 92%;
 	}
 	.tweets{
 		max-height: 220px;

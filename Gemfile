@@ -43,8 +43,8 @@ gem 'hover-rails', '~> 2.0.2'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
-
+gem 'unicorn'
+gem 'unicorn-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
   gem 'spring'

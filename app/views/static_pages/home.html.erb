@@ -5,9 +5,13 @@
 
 <h1>SmartcastGG</h1>
 <div id="ytdiv">
-
-	<iframe class="YoutubeVideo" width="100%" height="400px" src="https://www.youtube.com/embed/videoseries?list=PL6YZkeWa4hQV73_NHf3gMaJsStPDZU4nY" frameborder="0" allowfullscreen></iframe>
-	</div>
+	<% if fetch_online_status("smartcastgg") %>
+		<%= render 'layouts/stream' %>
+	<% else %>
+		<%= render 'layouts/yt' %>
+	<% end %>
+	
+</div>
 
 
 	<div class="row services">
@@ -43,16 +47,15 @@
 		</div>
 	</div>
 <h1>Follow us!</h1>
-<div class="socialMedia row">
-	<div class="tweets col-sm-6">
-		<a class="twitter-timeline" width="530" height="400" href="https://twitter.com/JomSnow901/lists/scgg" data-widget-id="647618758702440448"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
+<!-- <div class="socialMedia row"> -->
+<!-- 	<div class="tweets col-sm-6">
+	<%= render 'layouts/twitter' %>
+	</div> -->
 
-<div class="col-sm-6 mediaArray">
-	<div>
+<div style="margin-bottom: 50px;">
+	<div class="mediaArray">
 	<%=image_tag("SCGGnoText.png", alt: "SCGGLogoNoText", id:"SocialLogo") %>
-	</div>
-<div class="row FollowIcon">
+	<div class="row FollowIcon">
 
 		<div class="FollowIcons Twitter col-xs-4">
 		<%= link_to "https://twitter.com/SmartCast_GG" do %>
@@ -65,13 +68,15 @@
 		<% end %>
 		</div>
 		<div class="FollowIcons Instagram col-xs-4">
-		<%= link_to "https://instagram.com/bomanhorsejack/" do %>
+		<%= link_to "https://instagram.com/smartcastgg/" do %>
 			<i class="fa fa-instagram fa-4x"></i>
 		<% end %>
 		</div>
 </div>
+	</div>
+
 </div>
-</div>
+<!-- </div> -->
 </div>
 
 
