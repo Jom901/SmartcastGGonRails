@@ -9,13 +9,5 @@ module ApplicationHelper
 		end
 	end
 
-	def fetch_online_status(sourceStream)
-		stream = open('https://api.twitch.tv/kraken/streams/' + sourceStream)
-		response_body = stream.read[559,441]
-		if response_body.nil?
-			 false
-		else
-			 true
-		end
-	end
+
 end
