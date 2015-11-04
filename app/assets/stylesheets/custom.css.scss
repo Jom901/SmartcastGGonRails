@@ -4,6 +4,16 @@
 @import "font-awesome";
 
 
+
+@font-face{
+	font-family:'dimitri';
+	src: font-url('Dimitri.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'krungthep';
+	src: font-url('Krungthep.ttf') format('truetype');
+}
 /* universal */
 
 
@@ -83,6 +93,7 @@ li strong{
 }
 
 .main h1{
+	font-family: 'krungthep';
 	text-align:left;
 	padding-left: 35px;
     padding-bottom: 30px;
@@ -132,6 +143,13 @@ li strong{
 	margin-right: 0px;
 	background-color: #152627;
 	max-height: 516px;
+	min-height: 512px;
+	h3{
+		font-family: 'dimitri';
+	    font-size: 33px;
+	    color: #11A490;
+	}
+
 }
 .service p{
 	font-size: 36px;
@@ -179,7 +197,8 @@ li strong{
 	text-align: justify;
 }
 #Information1 p {
-	font-size: 18px;
+		font-family: 'krungthep';
+		font-size: 16px;
 }
 
 
@@ -192,7 +211,8 @@ li strong{
 	text-align: justify;
 }
 #Information2 p{
-	font-size: 18px;
+			font-family: 'krungthep';
+		font-size: 16px;
 }
 
 #iconContainer3{
@@ -204,7 +224,8 @@ li strong{
 	text-align: justify;
 }
 #Information3 p{
-	font-size: 18px;
+			font-family: 'krungthep';
+		font-size: 16px;
 }
 
 /* Twitter kungfu trickery */
