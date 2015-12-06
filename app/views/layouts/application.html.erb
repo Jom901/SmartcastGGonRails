@@ -47,6 +47,7 @@
             <li><a href="#">One more separated link</a></li> -->
           </ul>
         </li>
+        <li class="<%= 'active' if params[:controller] == 'events' %>"><%= link_to "Events", controller: "events", action: "index" %></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->

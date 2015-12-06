@@ -50,11 +50,13 @@ gem 'puma',           '2.11.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-  gem 'spring'
-  gem 'bootstrap-sass', '~> 3.3.5'
+gem 'spring'
+gem 'bootstrap-sass', '~> 3.3.5'
 
 #Add paperclip to add pictures to personnel
-  gem "paperclip", "~> 4.3"
+gem "paperclip", "~> 4.3"
+#Add paperclip extension to handle imgur integration
+gem 'paperclip-imgur'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

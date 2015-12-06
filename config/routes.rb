@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/new'
+
   get 'sessions/new'
 
   get 'workers/index'
@@ -16,6 +18,7 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
   resources :users
   resources :workers
+  resources :events
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
