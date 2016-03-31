@@ -5,6 +5,8 @@
 
 * Ruby 2.2.1
 
+* Visit at www.smartcast.gg
+
 ##Deployment instructions
 
 Simply type in
