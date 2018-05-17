@@ -56,6 +56,7 @@ gem 'bootstrap-sass', '~> 3.3.5'
 #Add paperclip to add pictures to personnel
 gem "paperclip", "~> 4.3"
 #Add paperclip extension to handle imgur integration
+gem 'imgurapi'
 gem 'paperclip-imgur'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
